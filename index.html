@@ -73,6 +73,12 @@
             animation-delay: 0.3s;
         }
 
+        .yorkshire-image {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+        }
+
         @keyframes bounce {
             0%, 100% {
                 transform: translateY(0);
@@ -136,7 +142,7 @@
     <div class="container">
         <div class="characters">
             <div class="character">🐌</div>
-            <div class="character">🐕</div>
+            <img src="/images/yorkshire.jpg" alt="Yorkshire Terrier" class="character yorkshire-image">
         </div>
         
         <div class="message">
@@ -144,10 +150,6 @@
             No busques la perfección<br>
             Tú lo lograrás<br>
             <span class="heart">❤️</span>
-        </div>
-        
-        <div class="subtitle">
-            ¡Caracolito y su amigo Yorkshire te lo dicen!
         </div>
     </div>
 </body>
